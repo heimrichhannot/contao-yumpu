@@ -1,0 +1,10 @@
+<?php $this->extend('block_searchable'); ?>
+
+<?php $this->block('content'); ?>
+
+<div class="yumpu-embed">
+	<iframe src="https://www.yumpu.com/de/embed/view/<?php echo $this->yumpuConfigID; ?>" frameborder="0" allowfullscreen="true"
+			allowtransparency="true"></iframe>
+</div>
+
+<?php $this->endblock(); ?>
