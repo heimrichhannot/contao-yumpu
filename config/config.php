@@ -20,5 +20,4 @@ $GLOBALS['TL_CTE']['media']['yumpu'] = 'HeimrichHannot\Yumpu\ContentYumpu';
 if(TL_MODE == 'FE')
 {
 	$GLOBALS['TL_USER_CSS']['yumpu'] = 'system/modules/yumpu/assets/css/yumpu.css|screen|static|1.0.0';
-	$GLOBALS['TL_JAVASCRIPT']['jquery.yumpu'] = 'system/modules/yumpu/assets/js/jquery.yumpu' . (!$GLOBALS['TL_CONFIG']['debugMode'] ? '.min' : '') . '.js|static';
 }
